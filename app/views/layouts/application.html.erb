@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Veer</title>
+    <title>VeerOrganics</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <div id="wrapper">
+    <%= render :partial  => "layouts/header" %>
     <%= yield %>
+    <%= render :partial  => "layouts/footer" %>
+    </div>
   </body>
 </html>

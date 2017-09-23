@@ -13,3 +13,13 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+//= require SmoothScroll.min
+//= require bootstrap
+//= require easing
+//= require jarallax
+//= require jquery-1.11.1.min
+//= require jquery.flexslider
+//= require jquery.flipster
+//= require jquery.immersive-slider
+//= require move-top
+//= require responsiveslides.min
