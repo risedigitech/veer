@@ -98,15 +98,15 @@ Class Definitions
   height: 100%;
 }
 div#slide_3_bg{
-	background:url(../assets/2.jpg) no-repeat 0px 0px;
+	background:url(../assets/soya.jpg) no-repeat 0px 0px;
 	background-size:cover !important;
 }
 div#slide_2_bg{
-	background:url(../assets/1.jpg) no-repeat 0px 0px;
+	background:url(../assets/wheat.jpg) no-repeat 0px 0px;
 	background-size:cover !important;	
 }
 div#slide_1_bg{
-	background:url(../assets/3.jpg) no-repeat 0px 0px;
+	background:url(../assets/methi.jpg) no-repeat 0px 0px;
 	background-size:cover !important;
 }
 

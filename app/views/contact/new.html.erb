@@ -1,0 +1,45 @@
+<div class="about-heading">
+      <h2>Contact <span>Us</span></h2>
+   </div>
+   <!-- //about-heading -->
+   <!-- contact -->
+   <div class="contact">
+      <div class="container">
+         <div class="agile-contact-form">
+            <div class="col-md-6 contact-form-left">
+               <div class="w3layouts-contact-form-top">
+                  <h3>Get in <span>touch</span></h3>
+                  <p>We manufacture Seed Grading Machine which has sturdy structure and long working life. Offering Seed Grading Machine, we are eminent Suppliers catering efficiently to the demands of the customers. Due to our secure and hassle-free payment procedures, clients stay satisfied with us. We undertake both online and offline payment processing methods including cash and bank transfers.</p>
+               </div>
+               <div class="agileits-contact-address">
+                  <ul>
+                     <li><i class="fa fa-phone" aria-hidden="true"></i> <span>+91 8989104583</span></li>
+                     <li><i class="fa fa-phone fa-envelope" aria-hidden="true"></i> <span><a href="mailto:example@email.com">veerorganics@gmail.com</a></span></li>
+                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span>224,Teachers Colony, Neemuch(M.P) 458441</span></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-6 contact-form-right">
+               <div class="contact-form-top">
+                  <h3>Send us a <span>message</span></h3>
+               </div>
+               <div class="agileinfo-contact-form-grid">
+                   <%= form_for @message, :class=>"contact", url: contact_path do |message_form| %>
+                   <%= message_form.text_field :name, :class=> "form-control", placeholder: "Name" %>
+                   <%= message_form.email_field :email, :class=>"form-control", placeholder: "Email"%>
+                   <%= message_form.text_field :mobile, :class=> "form-control", placeholder: "Mobile Number" %>
+                   <%= message_form.text_area :message, :class=> "form-control",  placeholder: "Message"%>
+                   <%= message_form.submit "Submit", :class => "btn1"%>
+                  <% end %>
+               </div>
+            </div>
+            <div class="clearfix"> </div>
+         </div>
+         
+         <div class="w3agile-map">
+            <h3>Find us <span>here</span></h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.5586873994694!2d74.86789735021105!3d24.46609198416413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3966737f6429b6cb%3A0x4f6bb66df49242d3!2sshree+veer+organics+agro+india+pvt.+ltd.!5e0!3m2!1sen!2sin!4v1506592349655" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+      </div>
+   </div>
+   
